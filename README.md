@@ -1,4 +1,9 @@
-# Memcached
+# Memcached Fork with MULT
+
+> **CAUTION:**
+> This fork only implements a new command `MULT` adding multiplication as an exercise
+> based on this fun blog post - https://quuxplusone.github.io/blog/2022/01/06/memcached-interview/
+> The solution is in the `MULT` [branch](https://github.com/memcached/memcached/compare/master...simek-m:memcached:mult) in the commit [3965adcd9ec7270c68133f639e934699c1594540](https://github.com/simek-m/memcached/commit/3965adcd9ec7270c68133f639e934699c1594540)
 
 Memcached is a high performance multithreaded event-based key/value cache
 store intended to be used in a distributed system.
